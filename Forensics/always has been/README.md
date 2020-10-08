@@ -14,5 +14,6 @@ To further confirm this, we can run this in terminal:
 > file documents.doc
 ![file command](file.png)
 
-Now, renaming the file as [documents.png](documents.png) instead, opening the image, we get the flag:
+Now, renaming the file as documents.png instead, opening the image, we get the flag:
 > wh{4lway5_h4s_b3en}
+![documents.png](documents.png)
