@@ -3,7 +3,7 @@
 
 Prompt: "There must be records stored somewhere."
 
-The word records would remind you of the DNS records that how information of registered URLs.
+The word records would remind you of the DNS records that contain information of registered URLs.
 To act on this information, I used a DNS lookup tool online, link [here](https://dnschecker.org/all-dns-records-of-domain.php)
 
 After input of the URL for the CTF site, scrolling down, we get the flag:
