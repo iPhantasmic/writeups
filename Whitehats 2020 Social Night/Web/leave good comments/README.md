@@ -1,5 +1,5 @@
 # leave good comments
-**Points: 100*
+**Points: 100**
 
 Prompt: "Did you know you can leave HTML comments?"
 
