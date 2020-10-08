@@ -26,4 +26,5 @@ Now I was stumped, where do I go from here? If in doubt, throw it into steghide 
 Seeing as the conversion from *.jfif to *.jpg might have removed any meaningful data, I did not get any flag from using out.jpg in steghide.
 Instead, throwing in out.jfif, we get the flag in plaintext:
 >![flag](flag.png)
-> wh{wh4t_ev3n}
+
+>wh{wh4t_ev3n}
