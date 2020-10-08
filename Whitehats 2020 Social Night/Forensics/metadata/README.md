@@ -2,6 +2,7 @@
 **Points: 100**
 
 In this challenge, you are first presented with a question: "Who made this?" 
+
 File: "[y_tho.jpg](y_tho.jpg)"
 
 Looking at the challenge name, we can guess that it might have something to do with the EXIF data seeing as it is a *.jpg file.
