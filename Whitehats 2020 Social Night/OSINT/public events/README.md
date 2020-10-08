@@ -1,4 +1,4 @@
-#public events
+# public events
 **Points: 110**
 
 Prompt: "I wonder how Iqrah is coordinating his actions with his friends... Maybe there is someone else?"
