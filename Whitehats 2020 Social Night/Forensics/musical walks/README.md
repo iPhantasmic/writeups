@@ -19,5 +19,6 @@ We will now use binwalk to extract it as well. Using this command, I could extra
 >binwalk --dd='.*' megalovania.mp3
 
 Inside the folder "_megalovania.mp3.extracted", we would then see a file titled "[27CAD](27CAD.jpg)". Knowing that they are JPEG files, we just needed to add the extension and open them which displayed the flag:
+
 ![flag](_megalovania.mp3.extracted/27CAD.jpg)
 > wh{wh4t}
