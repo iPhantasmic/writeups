@@ -1,4 +1,4 @@
-#passwords
+# passwords
 **Points: 120**
 
 Prompt: "We stole a password from someone, but it’s hashed! How will we solve this? The flag should be in the format wh{<flag>}."
