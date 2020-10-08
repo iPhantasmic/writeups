@@ -4,7 +4,8 @@
 Prompt: "Something seems fishy about this music..."
 File provided: "[megalovania.mp3](megalovania.mp3)"
 
-Now I was lost for this one and had to use a hint **oops**:
+Now I was lost for this one and had to use a hint (oops):
+
 **binwalk** was the hint, hence the walk in musical walks. This tool should instantly ring a bell, it's used to analyse embedded files!
 
 Opening up my terminal with binwalk installed, I ran this:
