@@ -1,7 +1,8 @@
 # internal text
 **Points: 100**
 
-Presented with a question: "Data is just 0 and 1 right?" and a file: "[okay.png](okay.png)"
+Presented with a question: "Data is just 0 and 1 right?"
+File: "[okay.png](okay.png)"
 
 Taking the time to understand the question, we do know that data is represented in binary to computers. 
 
