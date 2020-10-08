@@ -1,4 +1,5 @@
 # tweet!
+**Points: 100**
 
 Prompt:
 "We've found someone interesting, but we only have their name... Who is **Iqrah Markham**?"
