@@ -14,6 +14,7 @@ To test this hypothesis, I used this website [https://futureboy.us/stegano/decin
 
 First, I uploaded gavinsteg.jpg and chose to view the file in plaintext to see if anything looked recognisable. 
 >![Attempt 1](raw.png)
+
 Interestingly we see "JFIF", more on that [here](https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format). So we know that this is a file, now we save it then.
 >![Results](jfif.png)
 
@@ -24,5 +25,5 @@ For those on Windows, you would probably be able to open this in Paint. As a Mac
 Now I was stumped, where do I go from here? If in doubt, throw it into steghide again!
 Seeing as the conversion from *.jfif to *.jpg might have removed any meaningful data, I did not get any flag from using out.jpg in steghide.
 Instead, throwing in out.jfif, we get the flag in plaintext:
-![flag](flag.png)
+>![flag](flag.png)
 > wh{wh4t_ev3n}
