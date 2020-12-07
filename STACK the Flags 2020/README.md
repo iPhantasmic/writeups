@@ -1,4 +1,6 @@
 # STACK the Flags 2020 by GovTech
-041220 - 061220
+041220 2100 - 061220 2245
 ## Table of Contents
-- TBD
+- Forensics
+- Miscellaneous
+- OSINT
