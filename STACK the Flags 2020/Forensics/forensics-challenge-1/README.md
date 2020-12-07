@@ -9,13 +9,17 @@ Hint: "Understanding Windows memory"
 
 Upon obtaining the memory image, the first thing that I did was to identify the OS in which this memory image was taken from. This is crucial because every OS does its memory addressing differently (even between versions).
 
-I was running a native version of volatility on Kali Linux, but you could just make use of the Python version, link can be found here:
+I was running a native version of volatility on Kali Linux, but you could just make use of the Python version (vol.py).
 > volatility -f forensics-challenge-1.mem kdbgscan
 
 > volatility -f forensics-challenge-1.mem imageinfo
 
-I usually prefer the kdbgscan results as they tend to
+My personal SOP is to just run imageinfo since it performs a kdbgscan as well. From the results of imageinfo.txt, Win7SP1x64 is the first profile that is given, the list provided usually tends to be accurate and we can check this by simply running pslist. In the event where no processes show up, the profile is likely to be incorrect.
 
+From here on, every command would be preceded by:
+> volatility -f forensics-challenge-1.mem --profile==Win7SP1x64
+
+Since the prompt mentioned the user doing something, I first ran pslist to obtain all running processes in memory. Taking a quick look through pslist, there didn't seem to be any malicious processes off the bat. Although there was a significant number of chrome tabs open (he must've been busy with STACK the Flags 2020 as well). 
 
 Opening the file in Microsoft Word would give us an error.
 Peering into the file using Word, we see the PNG file signature at the top.
