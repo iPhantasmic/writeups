@@ -4,3 +4,6 @@
 - Forensics
 - Miscellaneous
 - OSINT
+
+Disclaimer: 
+The writeups included here are for the challenges I have attempted. Will provide links to other writeups as they are published.
