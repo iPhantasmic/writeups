@@ -1,0 +1,72 @@
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP0x64
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64_24000
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64_23418
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP0x64
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64_23418
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+
+**************************************************
+Instantiating KDBG using: /home/kali/Desktop/forensics-challenge-1.mem WinXPSP2x86 (5.1.0 32bit)
+Offset (P)                    : 0x29fb0a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64_24000
+PsActiveProcessHead           : 0x2a31b90
+PsLoadedModuleList            : 0x2a4fe90
+KernelBase                    : 0xfffff8000280a000
+

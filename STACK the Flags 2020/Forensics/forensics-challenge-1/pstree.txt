@@ -1,0 +1,41 @@
+No suitable address space mapping found
+Tried to open image as:
+ MachOAddressSpace: mac: need base
+ LimeAddressSpace: lime: need base
+ WindowsHiberFileSpace32: No base Address Space
+ WindowsCrashDumpSpace64BitMap: No base Address Space
+ WindowsCrashDumpSpace64: No base Address Space
+ HPAKAddressSpace: No base Address Space
+ VMWareMetaAddressSpace: No base Address Space
+ VirtualBoxCoreDumpElf64: No base Address Space
+ QemuCoreDumpElf: No base Address Space
+ VMWareAddressSpace: No base Address Space
+ WindowsCrashDumpSpace32: No base Address Space
+ SkipDuplicatesAMD64PagedMemory: No base Address Space
+ WindowsAMD64PagedMemory: No base Address Space
+ LinuxAMD64PagedMemory: No base Address Space
+ AMD64PagedMemory: No base Address Space
+ IA32PagedMemoryPae: No base Address Space
+ IA32PagedMemory: No base Address Space
+ OSXPmemELF: No base Address Space
+ MachOAddressSpace: MachO Header signature invalid
+ LimeAddressSpace: Invalid Lime header signature
+ WindowsHiberFileSpace32: No xpress signature found
+ WindowsCrashDumpSpace64BitMap: Header signature invalid
+ WindowsCrashDumpSpace64: Header signature invalid
+ HPAKAddressSpace: Invalid magic found
+ VMWareMetaAddressSpace: VMware metadata file is not available
+ VirtualBoxCoreDumpElf64: ELF Header signature invalid
+ QemuCoreDumpElf: ELF Header signature invalid
+ VMWareAddressSpace: Invalid VMware signature: 0xf000ff53
+ WindowsCrashDumpSpace32: Header signature invalid
+ SkipDuplicatesAMD64PagedMemory: Incompatible profile WinXPSP2x86 selected
+ WindowsAMD64PagedMemory: Incompatible profile WinXPSP2x86 selected
+ LinuxAMD64PagedMemory: Incompatible profile WinXPSP2x86 selected
+ AMD64PagedMemory: Incompatible profile WinXPSP2x86 selected
+ IA32PagedMemoryPae: No valid DTB found
+ IA32PagedMemory: No valid DTB found
+ OSXPmemELF: ELF Header signature invalid
+ FileAddressSpace: Must be first Address Space
+ ArmAddressSpace: No valid DTB found
+
