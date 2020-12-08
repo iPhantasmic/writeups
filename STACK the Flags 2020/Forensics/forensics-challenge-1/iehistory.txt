@@ -1,0 +1,260 @@
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905000
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Pictures/are%20you%20sure.txt
+Last modified: 2020-12-03 16:26:42 UTC+0000
+Last accessed: 2020-12-03 08:26:42 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905100
+Record length: 0x100
+Location: :2020120320201204: owlli@:Host: Computer
+Last modified: 2020-12-03 15:54:39 UTC+0000
+Last accessed: 2020-12-03 07:54:39 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905200
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Documents/hints.txt
+Last modified: 2020-12-03 16:24:12 UTC+0000
+Last accessed: 2020-12-03 08:24:12 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905300
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Pictures/whattt.txt
+Last modified: 2020-12-03 16:26:33 UTC+0000
+Last accessed: 2020-12-03 08:26:33 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905400
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Pictures/thismightbetheone.txt
+Last modified: 2020-12-03 16:26:39 UTC+0000
+Last accessed: 2020-12-03 08:26:39 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905500
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Pictures/i%20see.txt
+Last modified: 2020-12-03 16:26:40 UTC+0000
+Last accessed: 2020-12-03 08:26:40 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2905600
+Record length: 0x100
+Location: :2020120320201204: owlli@file:///C:/Users/owlli/Pictures/stack%20is%20fun.txt
+Last modified: 2020-12-03 17:11:10 UTC+0000
+Last accessed: 2020-12-03 09:11:10 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d05000
+Record length: 0x100
+Location: Cookie:owlli@microsoft.com/
+Last modified: 2020-10-29 13:51:03 UTC+0000
+Last accessed: 2020-10-29 13:51:03 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: owlli@microsoft[1].txt
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d05100
+Record length: 0x100
+Location: Cookie:owlli@youtube.com/
+Last modified: 2020-10-29 14:09:26 UTC+0000
+Last accessed: 2020-10-29 14:09:26 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: owlli@youtube[1].txt
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d05200
+Record length: 0x100
+Location: Cookie:owlli@youtube.com/
+Last modified: 2020-10-29 14:09:26 UTC+0000
+Last accessed: 2020-10-29 14:09:26 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: owlli@youtube[2].txt
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2cf6180
+Record length: 0x180
+Location: http://www.bing.com/favicon.ico
+Last modified: 2020-10-25 15:51:27 UTC+0000
+Last accessed: 2020-10-29 14:09:04 UTC+0000
+File Offset: 0x180, Data Offset: 0x88, Data Length: 0x98
+File: favicon[1].png
+Data: HTTP/1.1 200 OK
+Content-Length: 237
+Content-Type: image/x-icon
+X-Cache: TCP_HIT
+X-MSEdge-Ref: Ref A: 6F9E8BFCA2C9477EBC24A4E509D00899 Ref B: SIN30EDGE0106 Ref C: 2020-10-29T13:50:52Z
+
+~U:owlli
+
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15000
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/are%20you%20sure.txt
+Last modified: 2020-12-03 08:26:42 UTC+0000
+Last accessed: 2020-12-03 08:26:42 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xac
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15100
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Documents/hints.txt
+Last modified: 2020-12-03 08:24:12 UTC+0000
+Last accessed: 2020-12-03 08:24:12 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xa4
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15200
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/whattt.txt
+Last modified: 2020-12-03 08:26:33 UTC+0000
+Last accessed: 2020-12-03 08:26:33 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xa4
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15300
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/thismightbetheone.txt
+Last modified: 2020-12-03 08:26:39 UTC+0000
+Last accessed: 2020-12-03 08:26:39 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xb0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15400
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/i%20see.txt
+Last modified: 2020-12-03 08:26:40 UTC+0000
+Last accessed: 2020-12-03 08:26:40 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xa4
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15500
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/stack%20is%20fun.txt
+Last modified: 2020-12-03 09:11:10 UTC+0000
+Last accessed: 2020-12-03 09:11:10 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xac
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d15700
+Record length: 0x200
+Location: Visited: owlli@https://www.google.com/chrome/thank-you.html?installdataindex=defaultbrowser&statcb=0&defaultbrowser=1
+Last modified: 2020-10-29 13:51:56 UTC+0000
+Last accessed: 2020-10-29 13:51:56 UTC+0000
+File Offset: 0x200, Data Offset: 0x0, Data Length: 0xe0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16000
+Record length: 0x200
+Location: Visited: owlli@https://www.google.com/chrome
+Last modified: 2020-10-29 13:51:29 UTC+0000
+Last accessed: 2020-10-29 13:51:29 UTC+0000
+File Offset: 0x200, Data Offset: 0x0, Data Length: 0x98
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16200
+Record length: 0x200
+Location: Visited: owlli@https://www.google.com/chrome/thank-you.html?statcb=1&installdataindex=defaultbrowser&defaultbrowser=1
+Last modified: 2020-10-29 13:51:56 UTC+0000
+Last accessed: 2020-10-29 13:51:56 UTC+0000
+File Offset: 0x200, Data Offset: 0x0, Data Length: 0xe0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16400
+Record length: 0x200
+Location: Visited: owlli@https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BDF5A02B3-67F7-751D-6CBC-FD97980612DA%7D%26lang%3Den%26browser%3D2%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Ddefaultbrowser/update2/installers/ChromeSetup.exe
+Last modified: 2020-10-29 13:51:53 UTC+0000
+Last accessed: 2020-10-29 13:51:53 UTC+0000
+File Offset: 0x200, Data Offset: 0x0, Data Length: 0x1c0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16600
+Record length: 0x200
+Location: Visited: owlli@https://www.google.com/chrome/thank-you.html?installdataindex=defaultbrowser&statcb=0&defaultbrowser=1
+Last modified: 2020-10-29 13:51:56 UTC+0000
+Last accessed: 2020-10-29 13:51:56 UTC+0000
+File Offset: 0x200, Data Offset: 0x0, Data Length: 0xe0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16800
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/thismightbetheone.txt
+Last modified: 2020-10-29 14:05:12 UTC+0000
+Last accessed: 2020-10-29 14:05:12 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xb0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16900
+Record length: 0x100
+Location: Visited: owlli@http://www.msn.com/?ocid=iehp
+Last modified: 2020-10-29 14:09:04 UTC+0000
+Last accessed: 2020-10-29 14:09:04 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x98
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16a00
+Record length: 0x100
+Location: Visited: owlli@http://static-global-s-msn-com.akamaized.net/hp-eas/sc/2b/a5ea21.ico
+Last modified: 2020-10-29 14:09:06 UTC+0000
+Last accessed: 2020-10-29 14:09:06 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xbc
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16b00
+Record length: 0x100
+Location: Visited: owlli@http://go.microsoft.com/fwlink/?LinkId=69157
+Last modified: 2020-10-29 14:09:05 UTC+0000
+Last accessed: 2020-10-29 14:09:05 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xa4
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16c00
+Record length: 0x180
+Location: Visited: owlli@http://www.msn.com/en-sg/?ocid=iehp
+Last modified: 2020-10-29 14:09:06 UTC+0000
+Last accessed: 2020-10-29 14:09:06 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0x9c
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16d80
+Record length: 0x180
+Location: Visited: owlli@https://www.youtube.com/supported_browsers?next_url=%2F
+Last modified: 2020-10-29 14:09:23 UTC+0000
+Last accessed: 2020-10-29 14:09:23 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xb0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d16f80
+Record length: 0x100
+Location: Visited: owlli@http://static-entertainment-eas-s-msn-com.akamaized.net/sc/d7/97297b.ico
+Last modified: 2020-10-29 14:09:14 UTC+0000
+Last accessed: 2020-10-29 14:09:14 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xc0
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d17080
+Record length: 0x100
+Location: Visited: owlli@file:///C:/Users/owlli/Pictures/are%20you%20sure.txt
+Last modified: 2020-12-02 05:18:18 UTC+0000
+Last accessed: 2020-12-02 05:18:18 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xac
+**************************************************
+Process: 2460 explorer.exe
+Cache type "URL " at 0x2d17200
+Record length: 0x180
+Location: Visited: owlli@https://www.youtube.com
+Last modified: 2020-10-29 14:09:26 UTC+0000
+Last accessed: 2020-10-29 14:09:26 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0x90
