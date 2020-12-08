@@ -16,8 +16,6 @@ Addendum:
 
 File(s) provided: "[osint-challenge-6.jpg](osint-challenge-6.jpg)"
 
-**The outputs for commands ran can be found in the respective text files**
-
 ## My Attempt
 By breaking down the challenge, we can simplify it into 3 parts: **Coordinates, Date, Time**.
 
