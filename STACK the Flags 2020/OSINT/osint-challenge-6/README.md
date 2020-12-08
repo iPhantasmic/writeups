@@ -38,7 +38,7 @@ Following the steps, we first key in the coordinates into Google Maps to situate
 
 As the shadow in the given image is coming from the back, we can use this information in [SunCalc](suncalc.org). After keying in the coordinates and the date derived from the barcode, we shift our focus to the slider at the top of the webpage. We will drag it until the position of the sun aligns with the Parkroyal and UOL building, this would generate the desired shadow in the given image. ![SunCalc](suncalc.png) Here we see that the time is at about 1338, which would give us the 2 hour block of **1300-1500**.
 
-Constructing the flag, we now have:
+Constructing the flag using the format given, we now have:
 govtech-csg{1.286648_103.84685_2020:10:25_1500-1700}
 
 However, this wasn't the correct flag, and in troubleshooting this, the addendum said to use a CLI tool, directing me to exiftool. Interestingly, using exiftool gave us a slightly different Lat/Long, likely due to the decimal place rounding which resulted in different coordinates when we put it into the calculator. ![exiftool](exifdata.png) This time, we got the following:
