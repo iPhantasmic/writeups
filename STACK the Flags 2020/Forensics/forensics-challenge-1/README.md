@@ -30,7 +30,7 @@ This gives us the memory dump for the parent process chrome.exe with PID of 2904
 From the memdump, we can strings it to find any visited links and any other meaningful data:
 > strings 2904.dmp
 
-In the [output](chrome_string_dump.txt), I just searched through looking for any interesting links. This was the beginning of my downfall as I spent several hours going through various avenues to no avail. Below is a list of the commands I've ran and the rationale behind each:
+In the [output, chrome_string_dump.txt](chrome_string_dump.txt), I just searched through looking for any interesting links. This was the beginning of my downfall as I spent several hours going through various avenues to no avail. Below is a list of the commands I've ran and the rationale behind each:
 
 1. I attempted to take a look at the notepad.exe memory dump and see if there were any text files opened in notepad that could potentially contain the flag.
   > memdump -p 3896 --dump-dir=./
