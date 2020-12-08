@@ -23,8 +23,11 @@ Let us first check if there is any location data in the metadata of the image. O
 ![Inspector](mac_coords.png)
 
 Putting these coordinates into the [calculator](https://www.pgc.umn.edu/apps/convert/) yields the following:
+
 **Latitude: 1.286648**
+
 **Longitude: 103.84685**
+
 These would turn out to be incorrect, but more on that later.
 
 Next, I went on to find out what was in the barcode. [Cropping it out](barcode.png) and uploading it to an [online barcode scanner](https://online-barcode-reader.inliteresearch.com/) returned the date **25 October 2020**. This is likely to be the date for when the picture was taken. ![Date](barcode.png)
@@ -40,7 +43,9 @@ Constructing the flag using the format given, we now have:
 govtech-csg{1.286648_103.84685_2020:10:25_1500-1700}
 
 However, this wasn't the correct flag, and in troubleshooting this, the addendum said to use a CLI tool, directing me to exiftool. Interestingly, using exiftool gave us a slightly different Lat/Long, likely due to the decimal place rounding which resulted in different coordinates when we put it into the calculator. ![exiftool](exifdata.png) This time, we got the following:
+
 **Latitude: 1.286647**
+
 **Longitude: 103.846836**
 
 Hence, the constructed and accepted flag:
