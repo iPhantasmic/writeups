@@ -29,7 +29,7 @@ These would turn out to be incorrect, but more on that later.
 
 Next, I went on to find out what was in the barcode. [Cropping it out](barcode.png) and uploading it to an [online barcode scanner](https://online-barcode-reader.inliteresearch.com/) returned the date **25 October 2020**. This is likely to be the date for when the picture was taken. ![Date](barcode.png)
 
-Now, we would need to determine the time in which this picture was taken. Of course, we could just bruteforce all possible timings from when the sun is up, but what fun would that be. This [Medium article](https://medium.com/quiztime/lining-up-shadows-2351ae106cec) illustrates how we will go about finding the timeframe that the pictures was taken.
+Now, we would need to determine the time in which this picture was taken. Of course, we could just bruteforce all possible timings from when the sun is up, but what fun would that be. This [Medium article](https://medium.com/quiztime/lining-up-shadows-2351ae106cec) illustrates how we will go about finding the timeframe that the picture was taken.
 
 Following the steps, we first key in the coordinates into Google Maps to situate ourselves. We then use Street View to identify any landmarks in the background of the image. We now know that there is a Parkroyal as well as the UOL building directly behind the Speaker's Corner.
 ![streetview.png](streetview.png)
