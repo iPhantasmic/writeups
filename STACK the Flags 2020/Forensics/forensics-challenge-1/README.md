@@ -82,4 +82,4 @@ Overall, my workflow was sufficient for me to obtain the flag, but I didn't sear
 [Part 3](https://www.andreafortuna.org/2017/07/10/volatility-my-own-cheatsheet-part-3-process-memory/)
 - Extracting files from MFT using mftparser:
 [Link](https://steemit.com/security/@nybble/forensic-extracting-files-from-mft-table-with-volatility-part-2-en)
--
+- Plugins could potentially be useful in helping to analyse artefacts not supported by the vanilla Volatility. I personally did not find much success with the chromehistory plugin for this memory image. More on plugins [here](https://github.com/superponible/volatility-plugins).
