@@ -10,7 +10,7 @@ Flag Format: govtech-csg{fullname-phone number[9digits]-residential postal code[
 File(s) provided: "[osint-challenge-8.eml](osint-challenge-8/eml)"
 
 ## My Attempt
-We are first provided with a .eml file, this is a file that usually contains raw email data. Usually in forensics, we might be faced with a large number of .eml files, and parsing them can be a trouble. This Python [eml parser](https://github.com/GOVCERT-LU/eml_parser) tends to be a good package for automating the parsing of a large number of .eml files.
+We are first provided with a .eml file, this is a file that usually contains raw email data. In forensics, we might be faced with a large number of .eml files, and parsing them can be a trouble. This Python [eml parser](https://github.com/GOVCERT-LU/eml_parser) tends to be a good package for automating the parsing of a large number of .eml files.
 
 Seeing as this file is small and just a single email, we can just *cat* it to take a look at the contents.
 > cat osint-challenge-8.eml
@@ -41,14 +41,21 @@ Looks like our guy Lionel enjoys cycling, and even included his Strava profile p
 ![LauPaSat](laupasat.png)
 The geotag for this post tells us that he lives nearby LauPaSat, something that would be useful for us to identify his residential address/postal code.
 
-
+Taking a look at his [LinkedIn profile](https://www.linkedin.com/in/cheng-xiang-yi-0a4b891b9/?originalSubdomain=sg), we now know his full name to be **Lionel Cheng Xiang Yi**. ![linkedin](linkedin.png)
 
 Let us now shift our focus to his [Strava profile](https://www.strava.com/athletes/70911754) ![Strava](strava_history.png)
+Here, we see that he has two public entries, though there may not seem like much, we can actually follow him to obtain more information of his posts, this was something that my teammate noticed, which led us to his postal code **018935** at Marina One Residences, of which postal code I previously tried but was incorrect.
+![post](socialspacepost.png)
+![socialspace](social_space.png)
 
-Hence, the constructed flag is:
-> **govtech-csg{LionelChengXiangYi-9-}**
+Now the last thing we need is his mobile number, initially I overlooked the results from Google search and missed his Carousell account. It was only when I went back to the results that I noticed his contact number was included in his Carousell listings. ![listing](number.png) Hence we have the 9-digit contact number **963672918**.
+
+Thus the constructed flag is:
+> **govtech-csg{LionelChengXiangYi-963672918-018935}**
 
 ## **Learning Resources/References:**
 - For those interested in OSINT, [sherlock](https://github.com/sherlock-project/sherlock) is an interesting SOCMINT tool that allows you to enumerate a bunch of social media sites for a given username. Using lionelcxy as our example here, we can enumerate common social media sites with this username very quickly and efficiently, though it was not necessary for this challenge. *Take note that there tends to be some false positives.*
 > python3 sherlock lionelcxy
 ![sherlock](sherlock.png)
+
+To make use of this results, we can go to his [Twitter](https://twitter.com/lionelcxy) and take a look at his only post which actually links us to his Carousell listing and consequently his mobile number. ![twitter](twitter.png) ![listing](ps1.png) This aligns with and corroborates with our previous Google search results.
