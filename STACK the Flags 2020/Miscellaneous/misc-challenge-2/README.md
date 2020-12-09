@@ -1,28 +1,40 @@
-# Sounds of freedom!
+# Beep Boop
 **Points: 1000**
 
-Prompt: In a recent raid on a suspected COViD hideout, we found this video in a thumbdrive on-site. We are not sure what this video signifies but we suspect COViD's henchmen might be surveying a potential target site for a biological bomb. We believe that the attack may happen soon. We need your help to identify the water body in this video! This will be a starting point for us to do an area sweep of the vicinity!
+Prompt: As part of forensic investigations into servers operated by COViD, an investigator found this sound file in a folder labeled "SPAAAAAAAAAAAAAAAAAACE". Help us uncover the secret of the file.
 
-Flag Format: govtech-csg{postal_code}
+File(s) provided: "[misc-challenge-2.wav](misc-challenge-2.wav)"
 
-File(s) provided: "[osint-challenge-7.mp4](osint-challenge-7.mp4)"
+Hint 1: Apollo 7, 8 and 9 transmitted images in this way!
+
+Hint 2: Easter eggs transmission sound that was found in popular games like Portal / Portal 2!
+
+Hint 3: Take a look at Google Play store for useful tool!
 
 ## My Attempt
-We are provided with a video, showcasing the location of COViD's potential bomb site. The end goal is to identify the water body as shown in the second half of the video.
+As I just so happened to explore some of picoCTF's 2019 challenges, this challenge drew some similarities with one that I managed to complete. Particularly the use of the word "SPAAAAAAAAAAAAAAAAAACE" as the folder name, as well as the given audio file.
 
-There really isn't much to go off, especially since there is quite a number of water bodies in Singapore. The limited view of the water body makes judging its size difficult. Enumerating all water bodies no longer becomes a viable option..
+To walk us through, Apollo 7, 8, 9 made use of Slow Scan TV (SSTV) as means of transmitting images back to Earth. As such, what we need is a decoder for SSTV audios.
 
-One thing that stuck out to me was the audio, it sounded like a rumbling that many would find annoying as the National Day Parade (NDP) rehearsals take place annually. This is supported by the clue in the title of the challenge, "Sounds of freedom".. Perhaps we could look for water bodies nearby airbases.
+Following the same process as the [m00nwalk](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md) challenge, I ran the following commands:
+> apt-get install qsstv #install the sstv decoder
+pactl load-module module-null-sink sink_name=virtual-cable #creating a virtual cable that outputs to null
+pavucontrol #ensuring we are outputting to null
+qsstv
 
-From our results, we can effectively eliminate the West side of Singapore as there are no airbases with water bodies nearby.
-![airbase](airbase.png) To the keen-eyed, we would need to find a water body with plenty of greenery nearby, alongside some residential areas, as seen in the background of the video. This would then eliminate Sembawang Air Base and Changi Air Base from our list of candidates.
+![setup](setup.png)
 
-This leaves us with Paya Lebar Air Base, the last of the 4 airbases in Singapore. Zooming in, we can see that there is Punggol Park just above, and to confirm our findings, we can make use of Google Street View to identify any landmarks. The following image provides a point of view that matches many of the features in the video. ![features](features.png) We can see the green and white residential buildings, alongside the red-tiled roofs with plenty of greenery surrounding the water body.
+> paplay -d virtual-cable misc-challenge-2.wav #playing the audio into qsstv
+pactl unload-module <virtual cable no.> #cleaning up
 
-To further confirm our findings, we can identify the residential building in which the video was taken from. Using Google Maps, we just need to identify the bus stop right beside Punggol Park, since there was one at the bottom of the building in the video. ![satellite](satellite.png) ![street1](streetview1.png) ![street2](streetview2.png)
-From these images, we can see how the architectural features match up exactly with our video.
+![command](commands.png)
 
-Hence, we can get our flag as shown below.
+This should be the output from qsstv, which we can then download the image to get a better view of the flag.
+![results](results.png)
+
 ![flag](flag.png)
 The flag is:
-> **govtech-csg{538768}**
+> **govtech-csg{C00L_SL0w_Sc4n_T3L3v1S1on_tR4nsM1ss10N}**
+
+## **Learning Resources/References:**
+- picoCTF 2019's [m00nwalk](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md) writeup
