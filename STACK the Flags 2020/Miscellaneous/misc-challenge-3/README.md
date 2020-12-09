@@ -25,7 +25,7 @@ Accessing <webserver>/CSG.TXT, we would then obtain the following base64 encoded
 Let us open up [CyberChef](https://gchq.github.io/CyberChef/) and decode this string to ASCII.
 ![ascii](ascii.png)
 
-Something still seems off, '_' exist but the characters look jumbled up. Perhaps a ROT13?
+Something still seems off, '_' exists but the alphabets look jumbled up. Perhaps a ROT13?
 ![flag](flag.png)
 
 Viola, the flag is:
