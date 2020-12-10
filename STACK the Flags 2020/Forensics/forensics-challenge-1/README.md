@@ -76,6 +76,7 @@ Overall, my workflow was sufficient for me to obtain the flag, but I didn't sear
 4) Run strings on memdump
 5) Repeat the process, and make use of other modules as and when potential artefacts are identified
 
+- Useful cheatsheet from SANSDFIR: [Link](https://digital-forensics.sans.org/media/volatility-memory-forensics-cheat-sheet.pdf)
 - Andrea Fortuna's series is a good start for learning Volatility:
 [Part 1](https://www.andreafortuna.org/2017/06/25/volatility-my-own-cheatsheet-part-1-image-identification/)
 [Part 2](https://www.andreafortuna.org/2017/07/03/volatility-my-own-cheatsheet-part-2-processes-and-dlls/)
