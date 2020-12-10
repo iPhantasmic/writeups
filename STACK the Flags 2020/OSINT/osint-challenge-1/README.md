@@ -19,7 +19,7 @@ Interestingly, the webpage can be found on GovTech's Github under the developer.
 
 Now let's bite onto that lead and explore [@joshhky's gitlab](https://gitlab.com/joshhky), perhaps we could find the high value project as mentioned by the challenge prompt. ![gitlab](joshhky.png) He seems to have quite some contribution to this "korovax-employee-wiki" repository, especially since he is involved in creating a POC.
 
-Taking a look at that repository and its README.md, we see that @joshhky was assigned to take care of the **krs-admin-portal** repository which should not be made public.
+Taking a look at that repository and its README.md, we see that @joshhky was assigned to take care of the **krs-admin-portal** repository which should not be made public. ![flag](flag.png)
 
 Seems like @joshhky is part of the Korovax (sounds like corona vaccine) project, hence this could be why COV1D is targeting him for his contribution to a repository containing business data.
 
