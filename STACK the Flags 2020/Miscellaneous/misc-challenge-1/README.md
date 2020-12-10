@@ -7,7 +7,7 @@ Addendum:
 Treat the website as a starting point. The goal is to gain enough prerequisite knowledge to be able to find the flag "on" the website. Treat this challenge similar to an OSINT challenge, find out more about the website.
 
 ## My Attempt
-
+TBD
 
 The flag is:
 > **govtech-csg{C00L_SL0w_Sc4n_T3L3v1S1on_tR4nsM1ss10N}**
