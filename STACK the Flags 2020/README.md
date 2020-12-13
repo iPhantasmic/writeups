@@ -8,6 +8,8 @@
 Teammate: [blankshiro](https://github.com/blankshiro)
 
 Disclaimer:
-The writeups included here are for the challenges I have attempted. Writeups from fellow participants:
+The writeups included here are for the challenges I have attempted.
+
+You can find writeups from fellow participants here:
 - [blog.justins.in](https://blog.justins.in/stack-the-flags-2020/)
 - [Winning writeups](https://docs.google.com/spreadsheets/d/1EMgqFpcc_InJZy264AIe1QpvUDFs1-24iTrnKbdoOUo/edit?usp=sharing)
